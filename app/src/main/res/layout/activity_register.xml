@@ -6,33 +6,26 @@
     android:layout_height="match_parent">
 
     <EditText
-        android:id="@+id/txtEmail"
+        android:id="@+id/txtEmailRegistro"
         android:layout_width="match_parent"
-        android:layout_height="63dp"
+        android:layout_height="74dp"
         android:hint="Correo electrónico"
         android:inputType="textEmailAddress"
         android:textSize="18sp" />
 
     <EditText
-        android:id="@+id/txtPassword"
+        android:id="@+id/txtPasswordRegistro"
         android:layout_width="match_parent"
-        android:layout_height="63dp"
-        android:layout_marginTop="10dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="12dp"
         android:hint="Contraseña"
         android:inputType="textPassword"
         android:textSize="18sp" />
 
     <Button
-        android:id="@+id/btnLogin"
+        android:id="@+id/btnRegistrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Iniciar sesión"
+        android:text="Registrar cuenta"
         android:layout_marginTop="20dp"/>
-
-    <Button
-        android:id="@+id/btnIrRegistro"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Crear cuenta"
-        android:layout_marginTop="10dp"/>
 </LinearLayout>

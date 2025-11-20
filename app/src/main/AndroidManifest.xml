@@ -12,16 +12,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
+
+        <!-- Pantalla del chat -->
+        <activity android:name=".ChatActivity" />
+
+        <!-- Pantalla de registro -->
+        <activity android:name=".RegisterActivity" />
+
+        <!-- Pantalla de login (inicio de la app) -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
 
+        </activity>
 
     </application>
 

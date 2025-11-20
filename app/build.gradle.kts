@@ -40,25 +40,23 @@ dependencies {
     implementation(libs.activity)
     implementation(libs.constraintlayout)
 
-    // === Firebase BOM (agrupa versiones automáticamente) ===
+    // === Firebase BOM (controla versiones automáticamente) ===
     implementation(platform("com.google.firebase:firebase-bom:33.3.0"))
 
+    // === Firebase Authentication ===
+    implementation("com.google.firebase:firebase-auth")
 
     // === Firebase Realtime Database ===
     implementation("com.google.firebase:firebase-database")
 
-    // === Firebase Storage ===
+    // === Firebase Storage (opcional) ===
     implementation("com.google.firebase:firebase-storage")
-
-    // === Firebase Authentication ===
-    implementation("com.google.firebase:firebase-auth")
 
     // === Firebase Analytics ===
     implementation("com.google.firebase:firebase-analytics")
     implementation("com.google.firebase:firebase-analytics-ktx")
 
-
-    // === Tests ===
+    // === Testing ===
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
